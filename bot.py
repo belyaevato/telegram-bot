@@ -1,8 +1,7 @@
-import asyncio
-import csv
 import os
+import csv
+import asyncio
 import threading
-
 from flask import Flask
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import CommandStart
